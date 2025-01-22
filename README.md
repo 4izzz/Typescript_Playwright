@@ -46,15 +46,20 @@ Before setting up the project, ensure you have the following installed:
 
 ## Setup Instructions
 
-1. **Clone the Repository**:
-   git clone <repository-url>
-   cd <repository-directory>
-
-2. **Install Dependencies**:
-    npm install
-
+1. **Clone the Repository:**
+```plaintext
+git clone <repository-url>
+cd <repository-directory>
+```
+2. **Install Dependencies:**
+```plaintext
+npm install
+```
 3. **Run Tests: Execute all tests using the following command:**
-    npx playwright test
-
+```plaintext
+npx playwright test
+```
 4. **View Test Results: After running tests, view the results in the terminal. For a detailed report, use the Playwright HTML reporter:**
-    npx playwright show-report
+```plaintext
+npx playwright show-report
+```
